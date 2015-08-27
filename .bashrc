@@ -48,4 +48,4 @@ fi
 unset env
 
 # Aliases
-alias la='ls -al'
+alias la='ls -a'
