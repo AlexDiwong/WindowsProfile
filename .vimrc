@@ -39,3 +39,5 @@ set smarttab
 " 1 tab == 4 spaces
 set shiftwidth=4
 set tabstop=4
+"Set UTF-8 as standard
+set encoding=utf-8

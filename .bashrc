@@ -48,4 +48,8 @@ fi
 unset env
 
 # Aliases
-alias la='ls -al'
+alias la='ls -A'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
