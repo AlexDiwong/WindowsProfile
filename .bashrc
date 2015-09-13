@@ -53,3 +53,18 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
+
+#Create folder and cd into it
+mcd ()
+{
+    if [ "$1" == "" ]; then
+        echo "mcd directory-name";
+    else
+        if [ ! -d $1 ]; then
+            mkdir $1;
+            cd $1;
+        else
+            echo "$1 directory exists";
+        fi;
+    fi
+}
